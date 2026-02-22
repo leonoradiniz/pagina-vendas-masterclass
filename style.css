@@ -8,7 +8,8 @@
 body {
     min-height: 100vh;
     display: grid;
-    background: radial-gradient(ellipse 160% 40% at top center, rgba(247, 177, 151, 0.15) 0%, transparent 90%), linear-gradient(120deg, rgba(26, 26, 60, 0.88) 0%, rgba(5, 5, 15, 0.95) 100%), url('./assets/imagem-fundo.png'); 
+    background: radial-gradient(ellipse 160% 40% at top center, rgba(247, 177, 151, 0.15) 0%, transparent 90%), linear-gradient(120deg, rgba(26, 26, 60, 0.88) 0%, rgba(5, 5, 15, 0.95) 100%), url('./assets/imagem-fundo.png');
+    background-color: #0B0B19;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
