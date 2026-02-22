@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    background: radial-gradient(ellipse 160% 40% at top center, rgba(247, 177, 151, 0.15) 0%, transparent 90%), linear-gradient(120deg, rgba(26, 26, 60, 0.88) 0%, rgba(5, 5, 15, 0.95) 100%), url('./assets/imagem-fundo.png'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #F4F1ED;
+}
+
+header {
+    margin: clamp(1rem, 2vw, 2.5rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    background: rgba(247, 177, 151, 0.08);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter:blur(1px); /* suporte para navegadores Apple */
+    border: 1px solid rgba(247, 177, 151, 0.15);
+    box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.6);
+    border-radius: 24px;
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    font-weight: 500;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    padding: clamp(1rem, 2.5vw, 2.5rem);
+}
+
+h1 span {
+    color: #F7B197;
+    font-size: 0.85em;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block; 
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+main {
+    display: grid; /* irei ainda ajustar os filhos do main no grid contaier */
+
+}
+
+.conteudo-apresentacao {
+
+}
+
+.area-foto-principal {
+
+}
+
+.foto-principal {
+    width: 100%;
+    /* irei colocar width: 100%; para imagem responsiva */
+}
+
+.faq {
+
+}
+
+footer {
+
+}
